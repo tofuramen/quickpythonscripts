@@ -1,0 +1,20 @@
+2024-11-27 08:15:23 INFO [web-server] Request processed successfully - endpoint=/api/users method=GET status=200 duration=45ms
+2024-11-27 08:15:24 ERROR [database] Connection timeout - host=db-prod-01.internal port=5432 user=app_user
+2024-11-27 08:15:25 WARN [cache] Redis connection slow - latency=250ms threshold=100ms
+2024-11-27 08:15:26 INFO [web-server] Request processed successfully - endpoint=/api/products method=GET status=200 duration=32ms
+2024-11-27 08:15:27 ERROR [database] Connection timeout - host=db-prod-01.internal port=5432 user=app_user
+2024-11-27 08:15:28 ERROR [auth-service] Authentication failed - user=john.doe reason=invalid_token
+2024-11-27 08:15:30 INFO [web-server] Request processed successfully - endpoint=/api/orders method=POST status=201 duration=89ms
+2024-11-27 08:15:31 ERROR [database] Connection timeout - host=db-prod-01.internal port=5432 user=app_user
+2024-11-27 08:15:32 WARN [cache] Redis connection slow - latency=310ms threshold=100ms
+2024-11-27 08:15:33 INFO [web-server] Request processed successfully - endpoint=/api/users method=GET status=200 duration=41ms
+2024-11-27 08:15:35 ERROR [payment-gateway] Payment processing failed - order_id=12345 amount=99.99 reason=gateway_timeout
+2024-11-27 08:15:36 ERROR [database] Query timeout - query=SELECT * FROM orders WHERE status='pending' duration=30000ms
+2024-11-27 08:15:37 INFO [web-server] Request processed successfully - endpoint=/api/products method=GET status=200 duration=38ms
+2024-11-27 08:15:38 ERROR [database] Connection timeout - host=db-prod-01.internal port=5432 user=app_user
+2024-11-27 08:15:40 WARN [memory] High memory usage detected - usage=87% threshold=80%
+2024-11-27 08:15:41 ERROR [auth-service] Authentication failed - user=jane.smith reason=account_locked
+2024-11-27 08:15:42 INFO [web-server] Request processed successfully - endpoint=/api/orders method=GET status=200 duration=52ms
+2024-11-27 08:15:43 ERROR [database] Connection timeout - host=db-prod-01.internal port=5432 user=app_user
+2024-11-27 08:15:45 INFO [background-job] Job completed successfully - job=email_notifications duration=1234ms
+2024-11-27 08:15:46 ERROR [payment-gateway] Payment processing failed - order_id=12346 amount=149.99 reason=insufficient_funds
